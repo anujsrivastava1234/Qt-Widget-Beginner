@@ -22,7 +22,7 @@ void do_stuff()
     std::unique_ptr<House> up_prt1(new House(nullptr, "Third"));
     up_prt1->print_info();
 
-    std::unique_ptr<House> up_ptr2 = up_prt1;
+    // std::unique_ptr<House> up_ptr2 = up_prt1;
 
     //Shared Pointer
     std::shared_ptr<House> shr_ptr1(new House(nullptr, "Fourth"));
